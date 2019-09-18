@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆注册</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/pubic.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+	</head>
+	<body>
+		<!--顶部导航-->
+		<div class="top-nav bgc-gray margin-buttom-20">
+			<div class="content clearfix">
+				<div class="fl margin-left-20">
+					<a href="index.html" target="_blank">设为首页</a>
+					<span class="margin-lr-5">|</span>
+					<a href="#">收藏本站</a>
+				</div>
+				<div class="fr margin-right-20">
+					<a href="#">路人甲</a>
+					<span class="margin-lr-5">|</span>
+					<a href="#">退出登录</a>
+					<span>|</span>
+					<a href="#">我的订单</a>
+				</div>
+			</div>
+		</div>
+	
+		<!--搜索部分-->
+		<div class="header content padding-lr-20">
+			<!--logo-->
+			<img src="img/logo.png" />
+		</div>
+
+		<!--banner-->
+		<div class="register-banner">
+			<!--登陆-->
+			<div class="register">
+				<!--标题行-->
+				<div>
+					<span class="font-18">登陆</span>
+					<span class="fr right-more margin-left-10">></span>
+					<span class="title-color login-bt dd fr">立即注册</span>
+				</div>
+				<!--提示-->
+				<div class="hint padding-l-10 margin-tb-10">
+					<span class="iconfont icon-tishi title-color"></span>
+					<span>公共场合不建议自动登录，以防账号丢失</span>
+				</div>
+				<!--账号-->
+				<div class="account effect">
+					<span class="iconfont icon-jiedianhuiyuanhuaxiang effect-word"></span>
+					<input type="text" name="user" placeholder="您的手机/邮箱/用户名" />
+				</div>
+				<div class="password effect margin-tb-10">
+					<span class="iconfont icon-mima effect-word"></span>
+					<input type="text" name="pwd" placeholder="密码" />
+				</div>
+				<p><input type="checkbox" class="ckregister"/><sapn class="margin-left-5">自动登录</sapn><a href="find.html" class="fr">忘记密码？</a></p>
+				<div class="logined">登陆</div>
+				<div class="login-pic">
+					<span>使用第三方账号登陆：</span>
+					<img src="img/dl-qq.png"/>
+					<img src="img/dl-weixin.png" class="margin-lr-5"/>
+					<img src="img/dl-weibo.png"/>
+				</div>
+			</div>
+			
+			
+			<!--注册账号-->
+			<form class="validateform">
+				<div class="login">
+					<!--标题行-->
+					<div class="margin-buttom-20">
+						<span class="font-18">注册账户</span>
+						<span class="title-color register-bt dd fr">立即登录</span>
+						<span class="fr">已有账号？</span>
+					</div>
+					
+					<div class="num-phone effect padding-l-10">
+						<span class="iconfont icon-icon"></span>
+						<input type="text" name="tel" placeholder="请输入您的手机号" />
+					</div>
+					
+					<div class="padding-l-10">
+						<span class="iconfont icon-tousujianyi padding-r-10"></span>建议使用常用手机
+					</div>
+					<div class="clearfix">
+						<div class="record effect padding-l-10 fl">
+							<span class="iconfont icon-icon-auth"></span>
+							<input type="text" name="number" placeholder="请输入验证码" />
+						</div>
+						<span class="get-record get-code fr">获取验证码</span>
+					</div>
+					
+					<div class="regspwd effect padding-l-10">
+						<span class="iconfont icon-mima"></span>
+						<input type="password" name="pwd1" placeholder="请输入登陆密码，至少6个字符" />
+					</div>
+					<div class="regspwd1 effect padding-l-10 margin-buttom-20">
+						<span class="iconfont icon-mima"></span>
+						<input type="password" name="pwd2" placeholder="请确认密码" />
+					</div>
+					<p><input type="checkbox" class="recomck" /><span class="margin-left-5">我已同意阅读并同意</span><span class="title-color">《洋货码头用户注册协议》</span></p>
+					<div class="loging">立即注册</div>
+				</div>
+			</form>
+		</div>
+		
+		
+		<!--侧边栏-->
+		<div class="aside">
+			<!--控件列表-->
+			<div class="aside-panel">
+				<!--控件位置-->
+				<div class="aside-bar">
+					<ul class="aside-bar-lists">
+						<!--会员中心-->
+						<li class="asidebar-bar asidebar-bar-slide">
+							<a href="memberCenter.html" target="_blank"><span class="iconfont icon-gerenzhongxin font-white"></span></a>
+							<div class="tooltip-bar">会员中心</div>
+						</li>
+						<!--购物车-->
+						<li class="asidebar-bar asidebar-bar-cart aside-slide-bar">
+							<span class="icon-gouwuche iconfont"></span>
+							<p>购物车</p>
+							<!--购物车商品数量-->
+							<div class="count-shop">1</div>
+						</li>
+						<!--客服中心-->
+						<li class="asidebar-bar asidebar-bar-slide aside-slide-bar">
+							<span class="iconfont icon-kefu"></span>
+							<div class="tooltip-bar">客服中心</div>
+						</li>
+					</ul>
+					<ul class="aside-bar-lists slide-bar-bottom">
+						<!--二维码-->
+						<li class="asidebar-bar asidebar-bar-slide">
+							<span class="iconfont icon-erweima"></span>
+							<div class="tooltip-bar tooltip-coder">
+								<img src="img/code.png" />
+							</div>
+						</li>
+						<!--返回顶部-->
+						<li class="asidebar-bar return-top">
+							<span class="iconfont icon-fanhuidingbu"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--滑出区域 如购物车 客服-->
+			<div class="aside-slide">
+				<!--购物车内容-->
+				<div class="shop-car shop-display">
+					<p>
+						<span class="iconfont icon-gouwuche padding-l-10"></span>
+						<span>购物车</span>
+					</p>
+					<ul class="shop-car-lists">
+						<li class="shop-car-list">
+							<img class="fl" src="img/sample.jpg" />
+							<div class="shop-list-cont fl padding-l-10">
+								<div class="overflow shop-word">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+								<div class="padding-t-10">
+									<span class="font-14 title-color">￥123.45</span>
+									<a href="#" class="margin-left-20 delete">删除</a>
+								</div>
+							</div>
+						</li>
+						<li class="shop-car-list">
+							<img class="fl" src="img/sample.jpg" />
+							<div class="shop-list-cont fl padding-l-10">
+								<div class="overflow shop-word">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+								<div class="padding-t-10">
+									<span class="font-14 title-color">￥123.45</span>
+									<a href="#" class="margin-left-20 delete">删除</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!--结算-->
+					<div class="shop-car-bottom">
+						<p class="text-center">
+							共<span>1</span>件商品，总计：<span class="title-color">￥233.00</span>
+						</p>
+						<p class="pay-money"><a href="shopcar.html" target="_blank">去购物车结算</a></p>
+					</div>
+				</div>
+				<!--客服内容-->
+				<div class="server shop-display">
+					<div class="server-cont">
+						<p class="font-24 title-color padding-b-5">在线客服</p>
+						<p class="font-14">服务时间：09:00-18:00</p>
+					</div>
+					<div class="server-tel">
+						<p>请选择您需要咨询的内容</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 01
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 02
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 03
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 04
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 05
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 06
+						</p>
+					</div>
+					<div class="server-tel-bt">
+						<div class="tel-pic">
+							<img class="fl margin-top-5" src="img/tel.png" />
+							<div class="fl">
+								<p class="font-18">400专线</p>
+								<p>周一至周日9:00-18:00</p>
+							</div>
+						</div>
+						<p class="title-color font-30">400-829-8366</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部内容-->
+		<div class="foot-main">
+			<div class="content foot-content">
+				<div class="foot-title">
+					<ul>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">正</span>
+								<div class="img-text fl">
+									<span class="font-weight">正品保障</span>
+									<span>100%正品商城</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">税</span>
+								<div class="img-text fl">
+									<span class="font-weight">税费</span>
+									<span>100%税费透明</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">价</span>
+								<div class="img-text fl">
+									<span class="font-weight">价格</span>
+									<span>价格适中</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">物</span>
+								<div class="img-text fl">
+									<span class="font-weight">物流</span>
+									<span>物流便捷</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">售</span>
+								<div class="img-text fl">
+									<span class="font-weight">售后</span>
+									<span>保证交易安全</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="foot-menu">
+					<div class="foot-menu-left fl">
+						<dl>
+							<dt>购物指南</dt>
+							<dd>购物流程</dd>
+							<dd>发票制度</dd>
+							<dd>账户管理</dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd>货到付款</dd>
+							<dd>在线支付</dd>
+						</dl>
+						<dl>
+							<dt>订单服务</dt>
+							<dd>订单状态说明</dd>
+							<dd>自动取消订单</dd>
+						</dl>
+						<dl>
+							<dt>配送方式</dt>
+							<dd>配送范围及免邮标准</dd>
+							<dd>验货与签收</dd>
+						</dl>
+						<dl>
+							<dt>常见问题</dt>
+							<dd>常见问题整理汇集</dd>
+							<dd>投诉与监管</dd>
+							<dd>发票问题</dd>
+						</dl>
+					</div>
+					<div class="foot-menu-right fl text-center">
+						<span class="tel">400-829-8366</span>
+						<span class="font-14">周一至周日&nbsp;8:00-18:00</span>
+						<span class="font-14">全国统一服务热线</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--黑色底部-->
+		<div class="foot-litter">
+			<div class="content">
+				<img src="img/footer1.png" />
+				<img src="img/footer2.png" />
+				<span class="footer-text">版权所有：西安国际陆港电子商贸有限公司</span>
+				<span class="footer-text">陕ICP备：15013404号</span>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js" ></script>
+<script src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/register.js"></script>

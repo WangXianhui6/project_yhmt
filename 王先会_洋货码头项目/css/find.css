@@ -1,0 +1,139 @@
+/*找回密码*/
+.find-main{
+	width: 100%;
+	height: 556px;
+	position: relative;
+	border-top: 1px solid #FF2D52;
+}
+.find-middle{
+	width: 654px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -327px;
+	/*margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+}
+.find-top{
+	height: 40px;
+}
+/*圆*/
+.step{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 8px 1px #ccc;
+	background: #ccc;
+	color: #fff;
+}
+.step.on{
+	box-shadow: 1px 1px 8px 1px #FF2D52;
+	background: #FF2D52;
+	color: #fff;
+}
+/*灰条*/
+.gray-hr{
+	width: 220px;
+	height: 5px;
+	margin: 12px 0px;
+	background: #ccc;
+}
+.gray-hr.on{
+	background: #FF2D52;
+}
+.step-lists .step-list{
+	width: 100px;
+	float: left;
+	margin-right: 136px;
+}
+.step-lists .step-list.on{
+	color: #FF2D52;
+}
+.step-lists .step-list:last-child{
+	margin-right: 0;
+	margin-left: 32px;
+}
+/*内容盒子*/
+.verify{
+	width: 540px;
+	height: 200px;
+	position: absolute;
+	top: 138px;
+	left: 66px;
+	display: none;
+}
+
+.verify.active{
+	display: block;
+}
+/*电话输入框盒子*/
+.input{
+	width: 305px;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+.input input{
+	outline: 0;
+	width: 270px;
+	height: 38px;
+	border: 0;
+}
+
+/*验证码盒子*/
+.record-box{
+	width: 353px;
+	margin: 20px 0px;
+}
+.effect{
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+.record{
+	width: 192px;
+}
+.record input{
+	width: 156px;
+	height: 38px;
+	border: 0;
+}
+.get-record{
+	display: inline-block;
+	width: 106px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #FF2D52;
+	color: #fff;
+}
+/*点击按钮*/
+.stepbt{
+	width: 305px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #FF2D52;
+	color: #fff;
+	margin-left: 48px;
+	cursor: pointer;
+}
+.vertical{
+	padding-top: 10px;
+	display: none;
+}
+.vertical.on{
+	display: block;
+}
+.updatebt{
+	margin-left: 60px;
+}
+/*完成里的内容*/
+.finish-cont{
+	line-height: 24px;
+}

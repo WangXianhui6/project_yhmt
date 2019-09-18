@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/pubic.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/details.css" />
+	</head>
+	<body>
+		<!--顶部导航-->
+		<div class="top-nav bgc-gray">
+			<div class="content clearfix">
+				<div class="fl margin-left-20">
+					<a href="index.html" target="_blank">设为首页</a>
+					<span class="margin-lr-5">|</span>
+					<a href="#">收藏本站</a>
+				</div>
+				<div class="fr margin-right-20">
+					<a href="#">路人甲</a>
+					<span class="margin-lr-5">|</span>
+					<a href="#">退出登录</a>
+					<span>|</span>
+					<a href="#">我的订单</a>
+				</div>
+			</div>
+		</div>
+
+		<!--搜索部分-->
+		<div class="header content padding-lr-20">
+			<!--logo-->
+			<img src="img/logo.png" />
+
+			<!--搜索盒子-->
+			<div class="search-box">
+				<!--搜索框及按钮-->
+				<div class="search">
+					<img class="search-icon" src="img/search.png" />
+					<input type="text" class="search-input" placeholder="香奈儿" />
+					<a href="index5.0.html"target="_blank" class="search-btn">搜索</a>
+				</div>
+				<!--搜索文字-->
+				<div class="search-text margin-top-10">
+					<a href="#">香奈儿</a><span class="margin-lr-5">|</span>
+					<a href="#">奶粉</a><span class="margin-lr-5">|</span>
+					<a href="#">UGG</a><span class="margin-lr-5">|</span>
+					<a href="#">家居</a><span>|</span>
+				</div>
+			</div>
+		</div>
+
+		<!--主导航-->
+		<div class="main-nav bg-main font-white">
+			<div class="content">
+				<!--全部商品分类-->
+				<!--只要分类有static这个类型的时候，分类列表就会一直显示-->
+				<div class="classify-all fl">
+					<!--全部分类文本-->
+					<div class="text-center all-box">
+						<i class="iconfont icon-fenlei1"></i>
+						<span>全部商品分类</span>
+					</div>
+					<ul class="classify-list">
+						<li>
+							母婴用品
+							<span class="fr iconfont icon-yousanjiao"></span>
+							<!--二级分类-->
+							<div class="classify-two">
+								<div class="classify-two-list">
+									<div class="title">营养辅食1</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">育儿用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">童装童鞋</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">洗护用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">尿裤湿巾</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							美容护肤
+							<span class="fr iconfont icon-yousanjiao"></span>
+							<div class="classify-two">
+								<div class="classify-two-list">
+									<div class="title">营养辅食2</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">育儿用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">童装童鞋</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">洗护用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">尿裤湿巾</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							生活家具
+							<span class="fr iconfont icon-yousanjiao"></span>
+							<div class="classify-two">
+								<div class="classify-two-list">
+									<div class="title">营养辅食3</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">育儿用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">童装童鞋</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">洗护用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">尿裤湿巾</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							休闲食品
+							<span class="fr iconfont icon-yousanjiao"></span>
+							<div class="classify-two">
+								<div class="classify-two-list">
+									<div class="title">营养辅食4</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">育儿用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">童装童鞋</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">洗护用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">尿裤湿巾</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							进口食品
+							<span class="fr iconfont icon-yousanjiao"></span>
+							<div class="classify-two">
+								<div class="classify-two-list">
+									<div class="title">营养辅食5</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">育儿用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">童装童鞋</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">洗护用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">尿裤湿巾</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							轻奢名品
+							<span class="fr iconfont icon-yousanjiao"></span>
+							<div class="classify-two">
+								<div class="classify-two-list">
+									<div class="title">营养辅食6</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">育儿用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">童装童鞋</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">洗护用品</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+								<div class="classify-two-list">
+									<div class="title">尿裤湿巾</div>
+									<div class="lists">
+										<a href="#">开衫</a>
+										<span>|</span>
+										<a href="#">皮革</a>
+										<span>|</span>
+										<a href="#">T裇</a>
+										<span>|</span>
+										<a href="#">婚纱</a>
+										<span>|</span>
+										<a href="#">风衣</a>
+										<span>|</span>
+										<a href="#">毛衣</a>
+										<span>|</span>
+										<a href="#">卫衣长裙</a>
+										<span>|</span>
+										<a href="#">牛仔裤</a>
+										<span>|</span>
+										<a href="#">连体裤</a>
+										<span>|</span>
+										<a href="#">半身裙</a>
+										<span>|</span>
+										<a href="#">打底裤</a>
+										<span>|</span>
+										<a href="#">背带裤</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<!--导航列表-->
+				<div class="fl box-menu">
+					<ul>
+						<li>
+							<a class="font-white" href="index.html" target="_blank">首页</a>
+						</li>
+						<li><a href="credits.html" target="_blank">积分商城</a></li>
+						<li><a href="groupbuy.html" target="_blank">团购</a></li>
+						<li><a href="seckill.html" target="_blank">秒杀</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!--主要内容所在位置-->
+		<div class="content address-nav clearfix">
+			<div class="address fl">
+				<ul class="add-lists">
+					<li class="add-list iconfont icon-dizhi"></li>
+					<li class="add-list">首页</li>
+					<li class="add-list iconfont icon-arrow "></li>
+					<li class="add-list">婴儿奶粉</li>
+					<li class="add-list iconfont icon-arrow"></li>
+					<li class="add-list">泰国爱他美婴儿奶粉2袋（800g）</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--商品详情-->
+		<div class="content shop-detail">
+			<div class="shop-detail-left fl">
+				<!--主图-->
+				<div class="jqzoom" style="position: relative;">
+					<img src="img/001.jpg" style="position:relative;"/>
+				</div>
+				<div class="img-detail">
+					<!--左右按钮 细节图-->
+					<button class="fl img-bt imgbt-left"><</button>
+					<button class="fr img-bt imgbt-right">></button>
+					<div class="img-lists text-ellipone fl">
+						<img src="img/001.jpg" class="on"/>
+						<img src="img/006.jpg"/>
+						<img src="img/20190125173920563.jpg"/>
+						<img src="img/20181023192143_gbsnm.jpg"/>
+						<img src="img/001.jpg"/>
+						<img src="img/3168aac00c_800.jpg"/>
+						<img src="img/006.jpg"/>
+						<img src="img/20190125173920563.jpg"/>
+					</div>	
+				</div>
+				<div class="share">
+					<!--分享-->
+					<span class="iconfont icon-zhuanfa"></span>
+					<span>分享：</span>
+					<img src="img/qq.png"/>
+					<img src="img/weibo.png"/>
+					<img src="img/shar3.png"/>
+					<img src="img/renren.png"/>
+					<img src="img/weixin.png"/>
+					<span class="button fr">收藏商品</span>
+				</div>
+			</div>
+			<!--商品基本信息-->
+			<div class="shop-detail-right fl">
+				<div class="brand-info">
+					<img src="img/deguo.png"/>
+					<span>德国</span>
+					<span>|</span>
+					<span>Aptamil&nbsp;&nbsp;&nbsp;&nbsp;爱他美</span>
+					<div class="text-ellipone font-14 margin-tb-10">
+						此处为商品名称，最多为一排，超出隐藏此处为商品名称，最多为一排，超出隐藏此处为商品名称，最多为一排，超出隐藏
+					</div>
+					<div class="overflow slogan title-color">
+						此处为商品广告语描述，如果没有广告语则不显示，广告语颜色在后台设置，最多显示两排，如有超出隐藏,最多显示两排，如有超出隐藏最多显示两排，如有超出隐藏
+					</div>
+				</div>
+				<!--商品价格-->
+				<div class="detail-price">
+					<div class="margin-buttom-10">
+						<span>团购价</span>
+						<span class="font-30 color-ff6600">￥233.00</span>
+						<span class="square">团</span>
+						<span class="square">包邮</span>
+					</div>
+					<div class="fl">
+						<span>市场价:</span><span class="line-through">￥255.00</span>
+					</div>
+					<!--倒计时-->
+					<div class="fr">
+						<span class="iconfont icon-shijian-"></span>
+						<span class="font-18 color-ff6600 day">02</span><span>天</span>
+						<span class="font-18 color-ff6600 hour">12</span><span>时</span>
+						<span class="font-18 color-ff6600 minute">13</span><span>分</span>
+						<span class="font-18 color-ff6600 seconds">53</span><span>秒</span>
+					</div>
+				</div>
+				<!--商品选择-->
+				<div class="select-detail clearfix">
+					<div class="margin-tb-10">
+						<span>税费：</span><span>本商品适用于税率11.9%&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<span>税费收取规则</span><span class="iconfont icon-xiajiantou"></span>
+					</div>
+					<div class="margin-tb-10">
+						<span class="fl margin-top-15">可选：</span>
+						<div class="select-size fl">
+							<img src="img/006.jpg"/>
+							<div class="display-select">
+								<div class="sanjiao font-white">
+									<span class="sel">√</span>
+								</div>
+							</div>
+						</div>
+						<div class="select-size fl">
+							<img src="img/006.jpg"/>
+							<div class="display-select">
+								<div class="sanjiao font-white">
+									<span class="sel">√</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--库存-->
+				<div class="shop-number">
+					<span class="">数量：</span>
+					<a class="shop-num-span dicres" href="javascript:;">-</a>
+					<input class="shop-num-count" value="1"/>
+					<a class="shop-num-span add" href="javascript:;">+</a>
+					<span class="">库存123件</span>
+				</div>
+				<!--购买按钮-->
+				<div class="nowbuy font-white">
+					<span class="button iconfont icon-gouwuche bt-left">加入购物车</span>
+					<span class="button bt-right">立即购买</span>
+				</div>
+			</div>
+		</div>
+		
+		<!--猜你喜欢及图片展示-->
+		<div class="content main">
+			<!--猜您喜欢-->
+			<div class="hobby fl">
+				<div class="hobby-title">
+					猜您喜欢
+				</div>
+				<ul class="hobby-lists">
+					<li class="hobby-list clearfix">
+						<img class="fl" src="img/sample.jpg" />
+						<div class="hobby-list-cont padding-tb-10">
+							<div class="overflow list-title margin-buttom-5">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+							<div>
+								<span>商城价</span>
+								<span class="font-14 title-color">￥123.45</span>
+							</div>
+						</div>
+					</li>
+					<li class="hobby-list clearfix">
+						<img class="fl" src="img/sample.jpg" />
+						<div class="hobby-list-cont padding-tb-10">
+							<div class="overflow list-title margin-buttom-5">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+							<div>
+								<span>商城价</span>
+								<span class="font-14 title-color">￥123.45</span>
+							</div>
+						</div>
+					</li>
+					<li class="hobby-list clearfix">
+						<img class="fl" src="img/sample.jpg" />
+						<div class="hobby-list-cont padding-tb-10">
+							<div class="overflow list-title margin-buttom-5">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+							<div>
+								<span>商城价</span>
+								<span class="font-14 title-color">￥123.45</span>
+							</div>
+						</div>
+					</li>
+					<li class="hobby-list clearfix">
+						<img class="fl" src="img/sample.jpg" />
+						<div class="hobby-list-cont padding-tb-10">
+							<div class="overflow list-title margin-buttom-5">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+							<div>
+								<span>商城价</span>
+								<span class="font-14 title-color">￥123.45</span>
+							</div>
+						</div>
+					</li>
+					<li class="hobby-list clearfix">
+						<img class="fl" src="img/sample.jpg" />
+						<div class="hobby-list-cont padding-tb-5">
+							<div class="overflow list-title margin-buttom-5">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+							<div>
+								<span>商城价</span>
+								<span class="font-14 title-color">￥123.45</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<!--右边主要内容-->
+			<div class="fr">
+			<!--商品评价 详情及展示-->
+				<div class="recommend-right">
+					<!--顶部导航-->
+					<div class="recommend-right-title">
+						<ul class="recommed-title-lists fl">
+							<li class="recommed-title-list">商品详情</li>
+							<li class="recommed-title-list">商品评价(999)</li>
+							<li class="recommed-title-list">商品咨询(23)</li>
+							<li class="recommed-title-list">商品记录(999)</li>
+						</ul>
+						<ul class="fr phone">
+							<li class="fl">手机购买</li>
+							<li class="iconfont icon-erweima fl"></li>
+						</ul>
+					</div>
+					<div class="recomend-info clearfix">
+						<ul class="recomend-info-lists padding-l-20">
+							<li class="recomend-info-list">商品编号：123456214</li>
+							<li class="recomend-info-list">厂址：见瓶身</li>
+							<li class="recomend-info-list">产地：德国</li>
+							<li class="recomend-info-list">配料表：见背标</li>
+							<li class="recomend-info-list">储存方法：避光阴凉处</li>
+							<li class="recomend-info-list">保质期：20003315天</li>
+							<li class="recomend-info-list">食品添加剂：无</li>
+							<li class="recomend-info-list">产品名称：德国爱他美婴儿奶粉</li>
+							<li class="recomend-info-list">品牌：爱他美</li>
+						</ul>
+						<img src="img/20181023192143_gbsnm.jpg"/>
+					</div>
+				</div>
+			
+				<!--晒单界面-->
+				<div class="appraise clearfix">
+					<!--评价类别-->
+					<div class="appraise-class fl">
+						<div>晒单评价</div>
+						<div class="goods-num fl">
+							<span class="title-color font-24">90%</span>
+							<p class="padding-t-5">好评度</p>
+						</div>
+						<div class="fl goods-word">
+							<div>好评：
+								<div class="good"><div class="red-title precent1"></div></div>
+							</div>
+							<div>中评：
+								<div class="good"><div class="red-title precent2"></div></div>
+							</div>
+							<div>差评：
+								<div class="good"><div class="red-title precent3"></div></div>
+							</div>
+						</div>
+					</div>
+					<!--发表评论-->
+					<div class="public-appraise fl">
+						<a class="public-bt commend-bt">发表评论</a>
+						<span class="text-center">购买商品后方可评价</span>
+					</div>
+				</div>
+				
+				<!--填写评价-->
+				<div class="add-commend">
+					<div class="info">
+						<span class="name">填写评论：</span>
+						<textarea name="content" rows="10"></textarea>
+						<a class="send">提交</a>
+					</div>
+				</div>
+				
+				<!--显示评论页面-->
+				<div class="comment">
+					<div class="comment-nav">
+						<ul class="recommed-title-lists fl">
+							<li class="recommed-title-list">全部评论(99)</li>
+							<li class="recommed-title-list">好评(68)</li>
+							<li class="recommed-title-list">中评(23)</li>
+							<li class="recommed-title-list">差评(0)</li>
+							<li class="recommed-title-list">晒图(85)</li>
+						</ul>
+					</div>
+					<!--一个人的评论-->
+					<ul class="out-comment person-commend">
+						<li class="comment-content clearfix">
+							<div class="img-pic">
+								<img src="img/5abcb6792ca5b.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>好评</span>
+									<span>|</span>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think">
+									东西不错哦，包装还可以，我很喜欢,这是一个认真的评论，东西不错哦，包装还可以，我很喜欢,东西不错哦，包装还可以，我很喜欢,这是一个认真的评论这是一个认真的评论
+								</p>
+								<div class="commend-pic margin-tb-10">
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+								</div>
+								<div class="server-person">
+									<p class="title-color">客服回复：欢迎下次惠顾，谢谢您的信任，我们会继续努力哒欢迎下次惠顾，谢谢您的信任，我们会继续努力哒,谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+						
+						<li class="comment-content clearfix">
+							<div class="img-pic">
+								<img src="img/5abcb6792ca5b.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>好评</span>
+									<span>|</span>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think margin-buttom-10">
+									东西不错哦，包装还可以，我很喜欢,这是一个认真的评论，东西不错哦，包装还可以，我很喜欢,东西不错哦，包装还可以，我很喜欢,这是一个认真的评论这是一个认真的评论
+								</p>
+								<!--<div class="commend-pic margin-tb-10">
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+								</div>-->
+								<div class="server-person">
+									<p class="title-color">客服回复：欢迎下次惠顾，谢谢您的信任，我们会继续努力哒欢迎下次惠顾，谢谢您的信任，我们会继续努力哒,谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+						
+						<li class="comment-content clearfix">
+							<div class="img-pic">
+								<img src="img/5abcb6792ca5b.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>好评</span>
+									<span>|</span>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think margin-buttom-10">
+									东西不错哦，包装还可以，我很喜欢,这是一个认真的评论，东西不错哦，包装还可以，我很喜欢,东西不错哦，包装还可以，我很喜欢,这是一个认真的评论这是一个认真的评论
+								</p>
+								<!--<div class="commend-pic margin-tb-10">
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+								</div>-->
+								<!--<div class="server-person">
+									<p class="title-color">客服回复：欢迎下次惠顾，谢谢您的信任，我们会继续努力哒欢迎下次惠顾，谢谢您的信任，我们会继续努力哒,谢谢您的信任，我们会继续努力哒</p>
+								</div>-->
+							</div>
+						</li>
+						
+						<li class="comment-content clearfix">
+							<div class="img-pic">
+								<img src="img/5abcb6792ca5b.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>好评</span>
+									<span>|</span>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think margin-buttom-10">
+									东西不错哦，包装还可以，我很喜欢,这是一个认真的评论，东西不错哦，包装还可以，我很喜欢,东西不错哦，包装还可以，我很喜欢,这是一个认真的评论这是一个认真的评论
+								</p>
+								<!--<div class="commend-pic margin-tb-10">
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+								</div>-->
+								<!--<div class="server-person">
+									<p class="title-color">客服回复：欢迎下次惠顾，谢谢您的信任，我们会继续努力哒欢迎下次惠顾，谢谢您的信任，我们会继续努力哒,谢谢您的信任，我们会继续努力哒</p>
+								</div>-->
+							</div>
+						</li>
+						
+						<li class="comment-content clearfix">
+							<div class="img-pic">
+								<img src="img/5abcb6792ca5b.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>好评</span>
+									<span>|</span>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think margin-buttom-10">
+									东西不错哦，包装还可以，我很喜欢,这是一个认真的评论，东西不错哦，包装还可以，我很喜欢,东西不错哦，包装还可以，我很喜欢,这是一个认真的评论这是一个认真的评论
+								</p>
+								<!--<div class="commend-pic margin-tb-10">
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+									<img src="img/006.jpg"/>
+								</div>-->
+								<!--<div class="server-person">
+									<p class="title-color">客服回复：欢迎下次惠顾，谢谢您的信任，我们会继续努力哒欢迎下次惠顾，谢谢您的信任，我们会继续努力哒,谢谢您的信任，我们会继续努力哒</p>
+								</div>-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--翻页按钮-->
+				<div class="footer-bt clearfix margin-tb-10 observer">
+					<ul class="footer-bt-lists">
+						<li class="footer-bt-list pageup">上一页</li>
+						<li class="footer-bt-list page on">1</li>
+						<li class="footer-bt-list page">2</li>
+						<li class="footer-bt-list page">3</li>
+						<li class="footer-bt-list page">4</li>
+						<li class="footer-bt-list page">5</li>
+						<li class="footer-bt-list pagedown">下一页</li>
+					</ul>
+				</div>
+				
+				<!--填写问题-->
+				<div class="add-ask">
+					<div class="info">
+						<span class="name">填写提问：</span>
+						<textarea name="content" rows="10"></textarea>
+						<a class="send">提交</a>
+					</div>
+				</div>
+				<!--问答 提示-->
+				<div class="answer clearfix">
+					<div class="hint">
+						<div class="hint-left fl">
+							<p class="blod-title ">温馨提示</p>
+							<p>1.由于各种原因，我们可能不能及时送货，由于各种原因，我们可能不能及时送货，由于各种原因，我们可能不能及时送货</p>
+							<p>2.急件优先派送，急件优先派送急件优先派送，急件优先派送，急件优先派送，急件优先派送</p>
+						</div>
+						<div class="hint-right fl">
+							<a  class="public-bt hint-bt">商品咨询</a>
+						</div>
+					</div>
+					<ul class="out-comment person-ask">
+						<li class="comment-content clearfix hint-cont">
+							<div class="img-pic">
+								<img src="img/001.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think">
+									这个商品怎么样，布料上身效果好不好
+								</p>
+								
+								<div class="server-person margin-tb-10">
+									<p class="title-color">客服回复：欢迎下次惠顾，谢谢您的信任，我们会继续努力哒欢迎下次惠顾，谢谢您的信任，我们会继续努力哒,谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+						<li class="comment-content clearfix hint-cont">
+							<div class="img-pic">
+								<img src="img/001.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think">
+									这个商品怎么样，布料上身效果好不好
+								</p>
+								
+								<div class="server-person margin-tb-10">
+									<p class="title-color">客服回复：欢迎下次惠顾特别好哟谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+						<li class="comment-content clearfix hint-cont">
+							<div class="img-pic">
+								<img src="img/001.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think">
+									这个商品怎么样，布料上身效果好不好
+								</p>
+								
+								<div class="server-person margin-tb-10">
+									<p class="title-color">客服回复：欢迎下次惠顾特别好哟谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+						<li class="comment-content clearfix hint-cont">
+							<div class="img-pic">
+								<img src="img/001.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think">
+									这个商品怎么样，布料上身效果好不好
+								</p>
+								
+								<div class="server-person margin-tb-10">
+									<p class="title-color">客服回复：欢迎下次惠顾特别好哟谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+						<li class="comment-content clearfix hint-cont">
+							<div class="img-pic">
+								<img src="img/001.jpg"/>
+								<span>h***0</span>
+							</div>
+							
+							<div class="comment-content-everyone fr">
+								<p>
+									<span>2016-11-29</span>
+									<span>16:10:45</span>
+								</p>
+								<p class="everyone-think">
+									这个商品怎么样，布料上身效果好不好
+								</p>
+								
+								<div class="server-person margin-tb-10">
+									<p class="title-color">客服回复：欢迎下次惠顾特别好哟谢谢您的信任，我们会继续努力哒</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--翻页按钮-->
+				<div class="footer-bt clearfix margin-tb-10 observer">
+					<ul class="footer-bt-lists">
+						<li class="footer-bt-list pageup">上一页</li>
+						<li class="footer-bt-list page on">1</li>
+						<li class="footer-bt-list page">2</li>
+						<li class="footer-bt-list page">3</li>
+						<li class="footer-bt-list page">4</li>
+						<li class="footer-bt-list page">5</li>
+						<li class="footer-bt-list pagedown">下一页</li>
+					</ul>
+				</div>
+				
+				<!--销售记录-->
+				<div class="sales-record clearfix">
+					<div class="sales-record-title">
+						<p class="blod-title">销售记录</p>
+					</div>
+					<div class="sales-record-box">
+						<ul class="record-lists-title">
+							<li class="sales-list-title blod-title">买家</li>
+							<li class="sales-list-title blod-title">商品价格</li>
+							<li class="sales-list-title blod-title">数量</li>
+							<li class="sales-list-title blod-title">付款时间</li>
+							<li class="sales-list-title blod-title">款式和型号</li>
+						</ul>
+						<ul class="record-lists-title record-lists">
+							<li class="sales-list-title record-list">h***0</li>
+							<li class="sales-list-title record-list">446.00￥</li>
+							<li class="sales-list-title record-list">2</li>
+							<li class="sales-list-title record-list">2019-05-20</li>
+							<li class="sales-list-title record-list">2段 800g</li>
+						</ul>
+						<ul class="record-lists-title record-lists">
+							<li class="sales-list-title record-list">h***0</li>
+							<li class="sales-list-title record-list">446.00￥</li>
+							<li class="sales-list-title record-list">2</li>
+							<li class="sales-list-title record-list">2019-05-20</li>
+							<li class="sales-list-title record-list">2段 800g</li>
+						</ul>
+						<ul class="record-lists-title record-lists">
+							<li class="sales-list-title record-list">h***0</li>
+							<li class="sales-list-title record-list">446.00￥</li>
+							<li class="sales-list-title record-list">2</li>
+							<li class="sales-list-title record-list">2019-05-20</li>
+							<li class="sales-list-title record-list">2段 800g</li>
+						</ul>
+						<ul class="record-lists-title record-lists">
+							<li class="sales-list-title record-list">h***0</li>
+							<li class="sales-list-title record-list">446.00￥</li>
+							<li class="sales-list-title record-list">2</li>
+							<li class="sales-list-title record-list">2019-05-20</li>
+							<li class="sales-list-title record-list">2段 800g</li>
+						</ul>
+						<ul class="record-lists-title record-lists">
+							<li class="sales-list-title record-list">h***0</li>
+							<li class="sales-list-title record-list">446.00￥</li>
+							<li class="sales-list-title record-list">2</li>
+							<li class="sales-list-title record-list">2019-05-20</li>
+							<li class="sales-list-title record-list">2段 800g</li>
+						</ul>
+					</div>
+				</div>
+				<!--翻页按钮-->
+				<div class="footer-bt clearfix margin-tb-10 observer">
+					<ul class="footer-bt-lists">
+						<li class="footer-bt-list pageup">上一页</li>
+						<li class="footer-bt-list page on">1</li>
+						<li class="footer-bt-list page">2</li>
+						<li class="footer-bt-list page">3</li>
+						<li class="footer-bt-list page">4</li>
+						<li class="footer-bt-list page">5</li>
+						<li class="footer-bt-list pagedown">下一页</li>
+					</ul>
+				</div>
+				<!--为你推荐-->
+				<div class="hobby-box margin-buttom-20 clearfix">
+					<div class="shop-hobby-title">
+						<span class="text-000 padding-l-10 blod-title">为你推荐</span>
+						<span class="iconfont icon-shuaxin fr padding-r-10">换一批</span>
+					</div>
+					<div class="hobby-box-shop clearfix overflow">
+						<ul class="hobby-box-lists">
+							<li class="hobby-box-list">
+								<img src="img/006.jpg"/>
+								<div class="overflow hobby-word">
+									此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示
+								</div>
+								<span class="title-color font-14">￥1599.00</span>
+							</li>
+							<li class="hobby-box-list">
+								<img src="img/006.jpg"/>
+								<div class="overflow hobby-word">
+									此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示
+								</div>
+								<span class="title-color font-14">￥1599.00</span>
+							</li>
+							<li class="hobby-box-list">
+								<img src="img/006.jpg"/>
+								<div class="overflow hobby-word">
+									此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示
+								</div>
+								<span class="title-color font-14">￥1599.00</span>
+							</li>
+							<li class="hobby-box-list">
+								<img src="img/006.jpg"/>
+								<div class="overflow hobby-word">
+									此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示
+								</div>
+								<span class="title-color font-14">￥1599.00</span>
+							</li>
+							<li class="hobby-box-list">
+								<img src="img/006.jpg"/>
+								<div class="overflow hobby-word">
+									此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示此处为商品名称，如有超出，为两行显示
+								</div>
+								<span class="title-color font-14">￥1599.00</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+			
+		<!--侧边栏-->
+		<div class="aside">
+			<!--控件列表-->
+			<div class="aside-panel">
+				<!--控件位置-->
+				<div class="aside-bar">
+					<ul class="aside-bar-lists">
+						<!--会员中心-->
+						<li class="asidebar-bar asidebar-bar-slide">
+							<a href="memberCenter.html" target="_blank"><span class="iconfont icon-gerenzhongxin font-white"></span></a>
+							<div class="tooltip-bar">会员中心</div>
+						</li>
+						<!--购物车-->
+						<li class="asidebar-bar asidebar-bar-cart aside-slide-bar">
+							<span class="icon-gouwuche iconfont"></span>
+							<p>购物车</p>
+							<!--购物车商品数量-->
+							<div class="count-shop">1</div>
+						</li>
+						<!--客服中心-->
+						<li class="asidebar-bar asidebar-bar-slide aside-slide-bar">
+							<span class="iconfont icon-kefu"></span>
+							<div class="tooltip-bar">客服中心</div>
+						</li>
+					</ul>
+					<ul class="aside-bar-lists slide-bar-bottom">
+						<!--二维码-->
+						<li class="asidebar-bar asidebar-bar-slide">
+							<span class="iconfont icon-erweima"></span>
+							<div class="tooltip-bar tooltip-coder">
+								<img src="img/code.png" />
+							</div>
+						</li>
+						<!--返回顶部-->
+						<li class="asidebar-bar return-top">
+							<span class="iconfont icon-fanhuidingbu"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--滑出区域 如购物车 客服-->
+			<div class="aside-slide">
+				<!--购物车内容-->
+				<div class="shop-car shop-display">
+					<p class="car-word">
+						<span class="iconfont icon-gouwuche padding-l-10"></span> 购物车
+					</p>
+					<ul class="shop-car-lists">
+						<li class="shop-car-list">
+							<img class="fl" src="img/sample.jpg" />
+							<div class="shop-list-cont fl padding-l-10">
+								<div class="overflow shop-word">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+								<div class="padding-t-10">
+									<span class="font-14 title-color">￥123.45</span>
+									<a href="#" class="margin-left-20 delete">删除</a>
+								</div>
+							</div>
+						</li>
+						<li class="shop-car-list">
+							<img class="fl" src="img/sample.jpg" />
+							<div class="shop-list-cont fl padding-l-10">
+								<div class="overflow shop-word">实物商品实物商品实物商品实物商品实物商品实物商品实物商品</div>
+								<div class="padding-t-10">
+									<span class="font-14 title-color">￥123.45</span>
+									<a href="#" class="margin-left-20 delete">删除</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!--结算-->
+					<div class="shop-car-bottom">
+						<p class="text-center">
+							共<span>1</span>件商品，总计：<span class="title-color">￥233.00</span>
+						</p>
+						<p class="pay-money"><a href="shopcar.html" target="_blank">去购物车结算</a></p>
+					</div>
+				</div>
+				<!--客服内容-->
+				<div class="server shop-display">
+					<div class="server-cont">
+						<p class="font-24 title-color padding-b-5">在线客服</p>
+						<p class="font-14">服务时间：09:00-18:00</p>
+					</div>
+					<div class="server-tel">
+						<p>请选择您需要咨询的内容</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 01
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 02
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 03
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 04
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 05
+						</p>
+						<p class="font-14">
+							<span class="iconfont icon-kefu title-color"></span> 在线客服 06
+						</p>
+					</div>
+					<div class="server-tel-bt">
+						<div class="tel-pic">
+							<img class="fl margin-top-5" src="img/tel.png" />
+							<div class="fl">
+								<p class="font-18">400专线</p>
+								<p>周一至周日9:00-18:00</p>
+							</div>
+						</div>
+						<p class="title-color font-30">400-829-8366</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部内容-->
+		<div class="foot-main clearfix">
+			<div class="content foot-content">
+				<div class="foot-title">
+					<ul>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">正</span>
+								<div class="img-text fl">
+									<span class="font-weight">正品保障</span>
+									<span>100%正品商城</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">税</span>
+								<div class="img-text fl">
+									<span class="font-weight">税费</span>
+									<span>100%税费透明</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">价</span>
+								<div class="img-text fl">
+									<span class="font-weight">价格</span>
+									<span>价格适中</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">物</span>
+								<div class="img-text fl">
+									<span class="font-weight">物流</span>
+									<span>物流便捷</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="title-img fl margin-top-20">
+								<span class="word">售</span>
+								<div class="img-text fl">
+									<span class="font-weight">售后</span>
+									<span>保证交易安全</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="foot-menu">
+					<div class="foot-menu-left fl">
+						<dl>
+							<dt>购物指南</dt>
+							<dd>购物流程</dd>
+							<dd>发票制度</dd>
+							<dd>账户管理</dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd>货到付款</dd>
+							<dd>在线支付</dd>
+						</dl>
+						<dl>
+							<dt>订单服务</dt>
+							<dd>订单状态说明</dd>
+							<dd>自动取消订单</dd>
+						</dl>
+						<dl>
+							<dt>配送方式</dt>
+							<dd>配送范围及免邮标准</dd>
+							<dd>验货与签收</dd>
+						</dl>
+						<dl>
+							<dt>常见问题</dt>
+							<dd>常见问题整理汇集</dd>
+							<dd>投诉与监管</dd>
+							<dd>发票问题</dd>
+						</dl>
+					</div>
+					<div class="foot-menu-right fl text-center">
+						<span class="tel">400-829-8366</span>
+						<span class="font-14">周一至周日&nbsp;8:00-18:00</span>
+						<span class="font-14">全国统一服务热线</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--黑色底部-->
+		<div class="foot-litter">
+			<div class="content">
+				<img src="img/footer1.png" />
+				<img src="img/footer2.png" />
+				<span class="footer-text">版权所有：西安国际陆港电子商贸有限公司</span>
+				<span class="footer-text">陕ICP备：15013404号</span>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/base.js" ></script>
+<script type="text/javascript" src="js/detail.js" ></script>
+<script type="text/javascript" src="js/btn.js" ></script>
+<script src="js/jqzoom.js"></script>
+<script>
+	$(".jqzoom").jqzoom({
+		offwidth:400,
+		offheight:400
+	})
+</script>

@@ -1,0 +1,71 @@
+.address-nav{
+	padding: 15px 0px 10px 10px;
+	height: 45px;
+}
+.address{
+	width: 100%;
+	height:100% ;
+}
+.address .add-lists .add-list{
+	float: left;
+	margin-right: 10px;
+}
+
+/*帮助中心列表*/
+.help-box{
+	width: 222px;
+	border: 1px solid #E2E2E2;
+}
+
+.help-list .help-title{
+	padding: 0px 16px;
+	width: 220px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #E2E2E2;
+	background: #fff;
+	cursor: pointer;
+}
+.bottom-arrow{
+	display: none;
+}
+
+.help-list .help-title.on{
+	color: #FF2D52;
+}
+/*二级菜单*/
+.help-list .panel{
+	width: 220px;
+	padding: 0px 16px;
+	background: #fff;
+	border-bottom: 1px solid #E2E2E2;
+	display: none;
+}
+.help-list .panel.on{
+	display: block;
+}
+
+.panel .menu-lists{
+	line-height: 24px;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+.panel .menu-lists .menu-list.on{
+	color: #FF2D52;
+}
+/*右边购物流程*/
+.help-right{
+	width: 960px;
+	padding: 10px 20px 20px 20px;
+	border: 1px solid #E2E2E2;
+}
+.help-right .title-name{
+	width: 100%;
+	height: 40px;
+	border-bottom:1px dashed #E2E2E2 ;
+}
+/*购物流程详细信息*/
+.shop-content-detail{
+	line-height: 24px;
+}

@@ -1,0 +1,194 @@
+/*标题*/
+.close-title{
+	height: 58px;
+	border-bottom: 1px solid #E2E2E2;
+	line-height: 58px;
+}
+.close-title .title-name{
+	display: inline-block;
+	height: 100%;
+	border-bottom: 2px solid #FF2D52;
+}
+/*收货地址*/
+.get-address{
+	width: 260px;
+	height: 158px;
+	padding: 20px;
+	margin-right: 20px;
+	line-height: 22px;
+	position: relative;
+	background:url(../img/copy1.png) no-repeat; 
+	border: 1px solid #E2E2E2;
+}
+.get-address:last-child{
+	margin-right: 0;
+}
+.get-address.show{
+	background:url(../img/copypic.png) no-repeat; 
+}
+.get-address.show .sanjiao:after,
+.get-address.show .update{
+	display: block;
+}
+.update{
+	display: none;
+}
+/*三角*/
+.sanjiao:after{
+	content: '';
+	border: 15px solid transparent;
+	border-bottom-color: #FF2D52;
+	border-right-color: #FF2D52;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+/*勾*/
+.sel{
+	position: absolute;
+	right: 3px;
+	bottom: -1px;
+	z-index: 10;
+	font-size: 18px;
+}
+.font-size-16{
+	font-size: 16px;
+}
+
+/*添加新地址*/
+.add-address{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 50%;
+	background:#ccc ;
+	margin-top: 34px;
+	margin-left: 94px;
+}
+.add-ads:hover{
+	background:url(../img/copypic.png) no-repeat;
+}
+.get-address:hover .add-address{
+	background: #ff7011;
+}
+.add-word{
+	margin-left: 76px;
+}
+.get-address:hover .add-word{
+	color: #FF7011;
+}
+
+/*配送方式*/
+.pay-way{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	margin-right: 20px;
+}
+.pay-way:last-child{
+	margin-right: 0;
+}
+.pay-way.show{
+	border: 1px solid #FF2D52;
+	color: #FF2D52;
+}
+
+/*发货清单*/
+.invoice{
+	padding: 20px;
+	border: 1px solid #E2E2E2;
+}
+/*标题行*/
+.invoice-title{
+	height: 40px;
+	line-height: 40px;
+	background: #FFF9F5;
+}
+.left-lists,.right-lists{
+	text-align: center;
+}
+.left-lists .left-list{
+	float: left;
+	width: 162px;
+}
+.right-lists .right-list{
+	float: left;
+	width: 190px;
+}
+
+/*商品内容*/
+.shop-lists .shop-list{
+	height: 122px;
+	padding: 20px;
+	margin-bottom: 10px;
+	background: #FFF9F5;
+}
+.shop-list img{
+	width: 82px;
+	height: 82px;
+}
+.pic-content{
+	width: 280px;
+	height: 50px;
+	line-height: 25px;
+}
+.select-shop{
+	width: 180px;
+	text-align: center;
+}
+.price-cut{
+	width: 240px;
+	height: 78px;
+	line-height: 22px;
+}
+/*团购*/
+.price-cut .buy{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	border: 1px solid #FF2D52;
+	color: #FF2D52;
+}
+.count{
+	width: 148px;
+	text-align: center;
+}
+.right-price{
+	margin-left: 30px;
+}
+/*费用计算*/
+.money-close{
+	height: 180px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.pay{
+	display: inline-block;
+	width: 158px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background: #FF2D52;
+	cursor: pointer;
+}
+.pay:hover{
+	background: #EC193E;
+}
+/*下拉列表*/
+.select-down select{
+	width: 302px;
+	margin-top: 10px;
+}
+.padding-right-50{
+	padding-right: 40px;
+}
+.money{
+	text-align: right;
+}

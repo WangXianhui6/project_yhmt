@@ -1,0 +1,236 @@
+
+/*购物车内容*/
+.shop-main{
+	border-bottom: 1px solid #E2E2E2;
+}
+/*我的购物车*/
+.shop-main .shop-title{
+	width: 80px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	border-bottom: 2px solid #FF2D52;
+}
+/*全选*/
+.check-nav{
+	width: 100%;
+	height: 40px;
+	line-height:40px;
+	border: 1px solid #E2E2E2;
+	background: #fff9f5;
+	margin-top: 20px;
+}
+/*选择商品*/
+.check-all-box{
+	width: 250px;
+}
+/*选择商品列表*/
+.check-all-lists>li{
+	float: left;
+	width: 143px;
+}
+/*自营店*/
+.store{
+	height: 60px;
+	line-height: 60px;
+}
+/*商品主要内容*/
+.shop-content{
+	width: 100%;
+	border: 1px solid #e2e2e2;
+}
+
+.shop-content-lists .shop-content-list{
+	height: 163px;
+	
+}
+.list-content{
+	height: 123px;	
+	padding: 20px 16px;
+	width: 100%;
+	border-top: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+}
+.shop-content-list:first-child .list-content{
+	border-top: 0;
+}
+/*商品图片*/
+.list-content img{
+	width: 80px;
+	height: 80px;
+	margin:0px 10px 10px 15px;
+	float: left;
+}
+/*选择按钮*/
+.ck{
+	margin-top:34px;
+}
+/*图片标题*/
+.img-title{
+	width: 230px;
+	height: 44px;
+	line-height: 22px;
+	overflow: hidden;
+	padding-right: 50px;
+}
+/*选择商品*/
+.select-shop{
+	width: 160px;
+	height: 80px;
+	border: 1px dashed #E2E2E2;
+	padding: 10px 8px;
+	position: relative;
+}
+.select-shop:hover .small-update{
+	display: block;
+}
+.select-shop:hover{
+	border: 1px dashed #FF2D52;
+}
+/*修改点击前*/
+.gray-updete{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: url(../img/pen.png) no-repeat;
+	background-size: cover;
+	background-color: #DDDDDD;
+}
+/*修改点击后*/
+.small-update{
+	width: 32px;
+	height: 22px;
+	line-height: 22px;
+	background: #FF2D52;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.price-cut{
+	width: 218px;
+	height: 78px;
+	line-height: 22px;
+}
+/*团购*/
+.price-cut .buy{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	border: 1px solid #FF2D52;
+	color: #FF2D52;
+}
+/*商品数量*/
+.shop-num{
+	width: 230px;
+	height: 32px;
+	line-height: 26px;
+    text-align: center;
+}
+.shop-num .shop-num-span{
+	display: inline-block;
+	width: 21px;
+	height:30px;
+	border: 1px solid #E2E2E2;
+}
+.shop-num .shop-num-count{
+	width: 62px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+}
+/*移入收藏  删除*/
+.right-delete{
+	width: 160px;
+	height: 35px;
+	line-height: 34px;
+	padding-left:80px ;
+}
+/*折扣价*/
+.money-cut{
+	height: 40px;
+	line-height: 40px;
+}
+.money-cut-lists .money-cut-list{
+	float: left;
+	padding-right: 30px;
+}
+/*去结算*/
+.payfor{
+	height: 70px;
+	margin: 20px 0px; 
+	border: 1px solid #E2E2E2;
+	background: #F7F7F7;
+}
+/*input的对齐*/
+.ck-all{
+	vertical-align: -2px;
+}
+/*全选*/
+.all-select{
+	padding-top: 25px;
+	padding-left: 16px;
+}
+/*去结算按钮*/
+.pay-money-bt{
+	display: inline-block;
+	width:160px;
+	text-align: center;
+	height: 68px;
+	line-height: 68px;
+	background: #FF2D52;
+	color: #fff;
+}
+/*结算内容*/
+.count-word{
+	width: 425px;
+	text-align: right;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+/*费用详情*/
+.money-count-lists .money-count-list{
+	float: left;
+}
+
+/*猜你喜欢*/
+.hobby-box{
+	border: 1px solid #E2E2E2;
+}
+/*猜你喜欢标题*/
+.shop-hobby-title{
+	height: 40px;
+	border-bottom: 1px solid #E2E2E2;
+	background: #FFF9F5;
+	padding-top: 10px;
+} 
+/*猜你喜欢内容*/
+.hobby-box-shop{
+	padding: 20px 10px;
+}
+/*猜你喜欢列表*/
+.hobby-box-lists{
+	
+}
+.hobby-box-lists .hobby-box-list{
+	float: left;
+    margin-right: 17px;
+}
+.hobby-box-lists .hobby-box-list:last-child{
+	margin-right: 0;
+}
+/*图片*/
+.hobby-box-list img{
+	width: 182px;
+	height: 182px;
+}
+/*商品名称*/
+.hobby-box-list .hobby-word{
+	width: 182px;
+	height: 32px;
+	line-height: 16px;
+}
